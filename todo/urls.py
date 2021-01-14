@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", homepage, name="home"),
     path("test", test, name="test"),
+    path("test3/", test, name="third")
 ]
 
 # python manage.py runserver
