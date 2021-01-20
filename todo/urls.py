@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", homepage, name="home"),
     path("test", test, name="test"),
-    # path("test3/", test, name="third"),
+    path("test3/", test, name="third"),
     # # path("dgtest1", test, name="dgtest1")
     # path("dgtest2", test, name="dgtest2")
     # # path("dgtest3", test, name="dgtest3")
