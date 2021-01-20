@@ -20,8 +20,8 @@ def test(request):
 def test(request):
     return HttpResponse("test 2 page")
 
-def test(request):
-     return render(request, "dgtest1.html")
+# def test(request):
+#      return render(request, "dgtest1.html")
 
 # def test(request):
 #      return render(request, "dgtest2.html")
