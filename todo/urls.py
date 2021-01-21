@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from main.views import homepage, test
+# from main.views import homepage, test, second
+from main.views import *
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -24,6 +25,7 @@ urlpatterns = [
     path("", homepage, name="home"),
     path("testmy", test, name="testmy"),
     path("test3/", test, name="third"),
+    path("add-todo/", add_todo, name="add-todo"),
     # # path("dgtest1", test, name="dgtest1")
     # path("dgtest2", test, name="dgtest2")
     # # path("dgtest3", test, name="dgtest3")
