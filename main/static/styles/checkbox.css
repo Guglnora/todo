@@ -36,7 +36,6 @@
 } */
 
 
-
 /* The container */
 .checkbox_container {
     display: block;
@@ -111,3 +110,4 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
