@@ -27,6 +27,8 @@ urlpatterns = [
     path("test3/", test, name="third"),
     path("add-todo/", add_todo, name="add-todo"),
     path("delete-todo/<id>/", delete_todo, name="delete-todo"),
+    path("mark-todo/<id>/", mark_todo, name="mark-todo"),
+    path("unmark-todo/<id>/", unmark_todo, name="unmark-todo"),
 
     # path("dgtest1", test, name="dgtest1")
     # path("dgtest2", test, name="dgtest2")
