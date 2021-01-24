@@ -13,7 +13,7 @@ def homepage(request):
 
 def test(request):
     todo_list = ToDo.objects.all()
-    return render(request, "testmy.html", {"todo_list": todo_list})
+    return render(request, "books.html", {"todo_list": todo_list})
  
  
 def add_todo(request):
